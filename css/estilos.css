@@ -114,4 +114,13 @@ body {
 .contenedor aside .widget p {
   line-height: 24px;
 }
+
+.contenedor footer {
+  clear: both;
+  width: 700px;
+  background: #000;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
 /*# sourceMappingURL=estilos.css.map */
