@@ -75,4 +75,43 @@ body {
   line-height: 25px;
   text-align: justify;
 }
+
+.contenedor aside {
+  width: 300px;
+  background: #161f26;
+  padding: 20px;
+  color: #fff;
+  float: left;
+}
+
+.contenedor aside .widget {
+  margin-bottom: 20px;
+}
+
+.contenedor aside .widget .titulo {
+  color: #ff8000;
+  border-bottom: 1px solid #ff8000;
+}
+
+.contenedor aside .widget ul {
+  list-style: none;
+}
+
+.contenedor aside .widget ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 0;
+}
+
+.contenedor aside .widget ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenedor aside .widget ul li a:hover {
+  color: #8f8f8f;
+}
+
+.contenedor aside .widget p {
+  line-height: 24px;
+}
 /*# sourceMappingURL=estilos.css.map */
