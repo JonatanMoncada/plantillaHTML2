@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=estilos.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Sans-serif;
+  background: #4a465b;
+  font-size: 16px;
+}
+
+.contenedor {
+  width: 1000px;
+  margin: 20px;
+}
+
+.contenedor header {
+  background: #fff;
+}
+
+.contenedor header nav {
+  width: 100%;
+}
+
+.contenedor header nav ul {
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+}
+
+.contenedor header nav ul li {
+  float: left;
+}
+
+.contenedor header nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  color: #000;
+}
+
+.contenedor header nav ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+/*# sourceMappingURL=estilos.css.map */
