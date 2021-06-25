@@ -12,7 +12,7 @@ body{
 
 .contenedor{
     width: 1000px;
-    margin: 20px;
+    margin: 20px auto;
     header{
         background: #fff;
         nav{
@@ -35,6 +35,33 @@ body{
                     }
                 }
             }
+        }        
+    }
+    .main{
+        width: 700px;
+        background: #fff;
+        float: left;
+        .imagen{
+            width: 100%;
+            img{
+                width:100% ;
+                vertical-align: top;
+            }
+        }
+        .post{
+            padding: 40px;
+            article{
+                h2{
+                    margin-bottom: 20px;
+                    color: #424242;
+                }
+                p{
+                    margin-bottom: 15px;
+                    line-height: 25px;
+                    text-align: justify;
+                }
+            }
         }
     }
+    
 }

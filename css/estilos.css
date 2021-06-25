@@ -13,7 +13,7 @@ body {
 
 .contenedor {
   width: 1000px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .contenedor header {
@@ -44,5 +44,35 @@ body {
 .contenedor header nav ul li a:hover {
   background: #000;
   color: #fff;
+}
+
+.contenedor .main {
+  width: 700px;
+  background: #fff;
+  float: left;
+}
+
+.contenedor .main .imagen {
+  width: 100%;
+}
+
+.contenedor .main .imagen img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.contenedor .main .post {
+  padding: 40px;
+}
+
+.contenedor .main .post article h2 {
+  margin-bottom: 20px;
+  color: #424242;
+}
+
+.contenedor .main .post article p {
+  margin-bottom: 15px;
+  line-height: 25px;
+  text-align: justify;
 }
 /*# sourceMappingURL=estilos.css.map */
