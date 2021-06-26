@@ -12,7 +12,9 @@ body{
 }
 
 .contenedor{
-    width: 1000px;
+    //width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     margin: 20px auto;
     header{
         background: #000;
@@ -42,7 +44,8 @@ body{
         }        
     }
     .main{
-        width: 700px;
+        //width: 700px;
+        width: 70%;
         background: #fff;
         float: left;
         .imagen{
@@ -68,7 +71,8 @@ body{
         }
     }
     aside{
-        width: 300px;    
+        //width: 300px;    
+        width: 30%;
         //background: #161f26;
         background: #202030;
         padding: 20px;
@@ -102,7 +106,8 @@ body{
     }
     footer{
         clear: both;
-        width: 700px;
+        //width: 700px;
+        width: 70%;
         background: #000;
         color: #fff;
         padding: 15px 0;
